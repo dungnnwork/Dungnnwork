@@ -1,5 +1,8 @@
 main() {
   // 1.For loops in colection
+  for (var m = 0; m < 5; m++){
+    print(m);
+  }
   var techTeam = ['Hoan', 'Long', 'Dung', 'Thanh'];
   for (var i = 0; i < techTeam.length; i++);
   print(techTeam); // output [Hoan,Long,Dung,Thanh];
